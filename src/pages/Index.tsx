@@ -1,12 +1,11 @@
 import { motion } from "framer-motion";
 import KillSwitchForm from "@/components/KillSwitchForm";
 
+// Stage-1 ICP per product.md: solo operators with 5-20 decisions/week.
 const useCases = [
-  { label: "Founders", example: "Should I take this term sheet?" },
-  { label: "Operators", example: "Do I fire this vendor mid-sprint?" },
-  { label: "Sales", example: "Is this deal worth the discount?" },
-  { label: "Investors", example: "Does this thesis still hold?" },
-  { label: "Freelancers", example: "Should I drop this client?" },
+  { label: "Indie Hackers", example: "Raise price from $29 to $49 before launch?" },
+  { label: "Freelancers", example: "Accept this scope creep or walk?" },
+  { label: "Solo Operators", example: "Hire this dev at $2k/mo with no contract?" },
 ];
 
 const Index = () => {
